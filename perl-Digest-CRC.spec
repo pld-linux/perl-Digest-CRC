@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Digest
-%define	pnam	CRC
+%define		pdir	Digest
+%define		pnam	CRC
 Summary:	Digest::CRC - Generic CRC functions
 Summary(pl):	Digest::CRC - podstawowe funkcje CRC
 Name:		perl-%{pdir}-%{pnam}
