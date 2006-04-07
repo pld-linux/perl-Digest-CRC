@@ -8,12 +8,12 @@
 Summary:	Digest::CRC - Generic CRC functions
 Summary(pl):	Digest::CRC - podstawowe funkcje CRC
 Name:		perl-%{pdir}-%{pnam}
-Version:	0.09
+Version:	0.10
 Release:	1
 License:	Public Domain
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1456ba664d59a7ccc7d30e980f1695d0
+# Source0-md5:	2a065f4081fd923f2245e66597befcfb
 URL:		http://search.cpan.org/dist/Digest-CRC/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -54,4 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorarch}/Digest/*.pm
+%{perl_vendorarch}/auto/Digest/CRC/CRC.so
+%{perl_vendorarch}/auto/Digest/CRC/CRC.bs
 %{_mandir}/man3/*
