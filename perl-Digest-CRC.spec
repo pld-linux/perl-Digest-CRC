@@ -54,6 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorarch}/Digest/*.pm
-%{perl_vendorarch}/auto/Digest/CRC/CRC.so
+%dir %{perl_vendorarch}/auto/Digest/CRC
+%attr(755,root,root) %{perl_vendorarch}/auto/Digest/CRC/CRC.so
 %{perl_vendorarch}/auto/Digest/CRC/CRC.bs
 %{_mandir}/man3/*
