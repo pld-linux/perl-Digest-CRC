@@ -6,7 +6,7 @@
 %define		pdir	Digest
 %define		pnam	CRC
 Summary:	Digest::CRC - Generic CRC functions
-Summary(pl):	Digest::CRC - podstawowe funkcje CRC
+Summary(pl.UTF-8):   Digest::CRC - podstawowe funkcje CRC
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.10
 Release:	1
@@ -24,8 +24,8 @@ The Digest::CRC module calculates CRC sums of all sorts. It contains
 wrapper functions with the correct parameters for CRC-CCITT, CRC-16
 and CRC-32.
 
-%description -l pl
-Modu³ Digest::CRC oblicza ró¿nego rodzaju sumy kontrolne CRC. Posiada
+%description -l pl.UTF-8
+ModuÅ‚ Digest::CRC oblicza rÃ³Å¼nego rodzaju sumy kontrolne CRC. Posiada
 funkcje - wrappery z odpowiednimi parametrami dla CRC-CCITT, CRC-16
 oraz CRC-32.
 
