@@ -6,7 +6,7 @@
 %define		pdir	Digest
 %define		pnam	CRC
 Summary:	Digest::CRC - Generic CRC functions
-Summary(pl.UTF-8):   Digest::CRC - podstawowe funkcje CRC
+Summary(pl.UTF-8):	Digest::CRC - podstawowe funkcje CRC
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.10
 Release:	1
