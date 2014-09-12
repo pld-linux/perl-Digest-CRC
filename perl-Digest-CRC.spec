@@ -57,5 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Digest/*.pm
 %dir %{perl_vendorarch}/auto/Digest/CRC
 %attr(755,root,root) %{perl_vendorarch}/auto/Digest/CRC/CRC.so
-%{perl_vendorarch}/auto/Digest/CRC/CRC.bs
 %{_mandir}/man3/*
