@@ -9,7 +9,7 @@ Summary:	Digest::CRC - Generic CRC functions
 Summary(pl.UTF-8):	Digest::CRC - podstawowe funkcje CRC
 Name:		perl-Digest-CRC
 Version:	0.18
-Release:	6
+Release:	7
 License:	Public Domain
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Digest/%{pdir}-%{pnam}-%{version}.tar.gz
